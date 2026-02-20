@@ -4,8 +4,8 @@ meta:
   engineVersion: 268.0.0
   forkId: ""
   forkVersion: ""
-  time: 02/19/2026 11:07:19
-  entityCount: 3185
+  time: 02/20/2026 15:03:54
+  entityCount: 3110
 maps:
 - 1
 grids:
@@ -457,11 +457,6 @@ entities:
             2991: 1,75
         - node:
             color: '#FFFFFFFF'
-            id: Dolg_graf
-          decals:
-            2772: -3,15
-        - node:
-            color: '#FFFFFFFF'
             id: GrayConcreteTrimLineW
           decals:
             3041: -9,111
@@ -482,16 +477,6 @@ entities:
             id: WarnLineE
           decals:
             2620: -13,21
-        - node:
-            color: '#FFFFFFFF'
-            id: WarnLineGreyscaleE
-          decals:
-            55: 20,17
-        - node:
-            color: '#FFFFFFFF'
-            id: WarnLineGreyscaleW
-          decals:
-            54: 19,17
         - node:
             color: '#FFFFFFFF'
             id: WarnLineW
@@ -775,263 +760,257 @@ entities:
             id: r
           decals:
             3048: 15.868069,82.218346
-        - node:
-            color: '#FFFFFFFF'
-            id: skull
-          decals:
-            56: 19,17
-            57: 20,17
     - type: Biome
       forcedMarkerLayers: []
       markerLayers: []
       loadedMarkers: {}
       pendingMarkers: {}
       loadedChunks:
-      - -24,64
-      - -32,112
-      - -24,56
-      - -32,104
-      - 16,112
-      - 16,104
-      - 8,112
-      - 16,96
-      - 24,120
-      - -32,96
-      - 0,88
-      - 16,120
-      - 8,104
-      - 16,88
-      - 0,80
-      - 16,80
-      - -8,88
-      - 16,72
-      - -16,88
-      - 16,64
-      - 8,96
-      - 16,56
-      - 24,112
-      - 8,120
-      - 8,88
-      - 0,120
-      - 24,104
-      - 8,80
-      - 0,56
-      - 8,72
-      - 0,64
-      - -8,56
-      - -40,112
-      - 0,112
-      - 8,64
-      - 0,104
-      - 0,96
-      - -16,64
-      - -8,120
-      - 8,56
-      - -8,64
-      - 0,72
-      - -40,104
-      - -8,112
-      - -8,80
-      - -8,72
-      - -16,72
-      - -16,80
-      - -24,72
-      - -16,56
-      - -24,80
-      - -24,88
-      - -32,88
-      - -40,96
-      - -32,80
-      - 24,96
-      - -40,88
-      - -32,72
-      - -40,80
-      - -8,104
-      - 24,88
-      - -8,96
-      - -40,72
-      - -16,120
-      - -16,112
-      - -24,120
-      - -16,104
-      - -24,112
-      - -16,96
-      - -32,120
-      - -32,64
-      - -40,120
-      - -24,104
-      - -40,64
-      - -32,56
-      - -40,56
-      - -24,96
-      - 24,80
-      - 24,72
-      - 24,64
-      - 24,56
+      - 24,-24
+      - 24,-32
+      - 16,-32
+      - 8,-32
+      - 0,-32
+      - -8,-32
+      - -16,-32
+      - 48,-40
+      - 16,-24
+      - 8,-24
+      - 40,-40
+      - 32,24
+      - 32,-40
+      - 24,-40
+      - 16,-40
+      - 0,-24
+      - -8,-24
+      - 40,24
+      - 48,24
+      - 8,-40
+      - -16,-24
+      - 0,-40
+      - 40,16
+      - 32,16
+      - 48,16
+      - -8,-40
+      - -16,-16
+      - -16,-8
+      - -16,0
+      - -16,8
+      - -16,16
+      - 40,8
+      - 32,8
+      - 40,0
+      - 32,0
+      - -8,-16
+      - -8,-8
+      - -8,0
+      - -8,8
+      - -8,16
+      - 24,24
+      - 32,-8
+      - 40,-8
+      - 48,8
+      - 0,-16
+      - 0,-8
+      - 0,0
+      - 0,8
+      - 0,16
+      - 16,24
+      - 48,0
+      - 32,-16
+      - 32,-24
+      - 8,-16
+      - 8,-8
+      - 8,0
+      - 8,8
+      - 8,16
+      - 8,24
+      - 40,-16
+      - 16,-16
+      - 16,-8
+      - 16,0
+      - 16,8
+      - 16,16
+      - 0,24
+      - 32,-32
+      - 48,-8
+      - 48,-16
+      - 24,-16
+      - 24,-8
+      - 24,0
+      - 24,8
+      - 24,16
+      - -8,24
+      - 40,-24
+      - 48,-24
+      - -16,-40
+      - 40,-32
+      - -16,24
+      - 48,-32
       entities:
-        -24,64: {}
-        -32,112: {}
-        -24,56: {}
-        -32,104: {}
-        16,112: {}
-        16,104: {}
-        8,112: {}
-        16,96: {}
-        24,120: {}
-        -32,96: {}
-        0,88: {}
-        16,120: {}
-        8,104: {}
-        16,88: {}
-        0,80: {}
-        16,80: {}
-        -8,88: {}
-        16,72: {}
-        -16,88: {}
-        16,64: {}
-        8,96: {}
-        16,56: {}
-        24,112: {}
-        8,120: {}
-        8,88: {}
-        0,120: {}
-        24,104: {}
-        8,80: {}
-        0,56: {}
-        8,72: {}
-        0,64: {}
-        -8,56: {}
-        -40,112: {}
-        0,112: {}
-        8,64: {}
-        0,104: {}
-        0,96: {}
-        -16,64: {}
-        -8,120: {}
-        8,56: {}
-        -8,64: {}
-        0,72: {}
-        -40,104: {}
-        -8,112: {}
-        -8,80: {}
-        -8,72: {}
-        -16,72: {}
-        -16,80: {}
-        -24,72: {}
-        -16,56: {}
-        -24,80: {}
-        -24,88: {}
-        -32,88: {}
-        -40,96: {}
-        -32,80: {}
-        24,96: {}
-        -40,88: {}
-        -32,72: {}
-        -40,80: {}
-        -8,104: {}
-        24,88: {}
-        -8,96: {}
-        -40,72: {}
-        -16,120: {}
-        -16,112: {}
-        -24,120: {}
-        -16,104: {}
-        -24,112: {}
-        -16,96: {}
-        -32,120: {}
-        -32,64: {}
-        -40,120: {}
-        -24,104: {}
-        -40,64: {}
-        -32,56: {}
-        -40,56: {}
-        -24,96: {}
-        24,80: {}
-        24,72: {}
-        24,64: {}
-        24,56: {}
+        24,-24: {}
+        24,-32: {}
+        16,-32: {}
+        8,-32: {}
+        0,-32: {}
+        -8,-32: {}
+        -16,-32: {}
+        48,-40: {}
+        16,-24: {}
+        8,-24: {}
+        40,-40: {}
+        32,24: {}
+        32,-40: {}
+        24,-40: {}
+        16,-40: {}
+        0,-24: {}
+        -8,-24: {}
+        40,24: {}
+        48,24: {}
+        8,-40: {}
+        -16,-24: {}
+        0,-40: {}
+        40,16: {}
+        32,16: {}
+        48,16: {}
+        -8,-40: {}
+        -16,-16: {}
+        -16,-8: {}
+        -16,0: {}
+        -16,8: {}
+        -16,16: {}
+        40,8: {}
+        32,8: {}
+        40,0: {}
+        32,0: {}
+        -8,-16: {}
+        -8,-8: {}
+        -8,0: {}
+        -8,8: {}
+        -8,16: {}
+        24,24: {}
+        32,-8: {}
+        40,-8: {}
+        48,8: {}
+        0,-16: {}
+        0,-8: {}
+        0,0: {}
+        0,8: {}
+        0,16: {}
+        16,24: {}
+        48,0: {}
+        32,-16: {}
+        32,-24: {}
+        8,-16: {}
+        8,-8: {}
+        8,0: {}
+        8,8: {}
+        8,16: {}
+        8,24: {}
+        40,-16: {}
+        16,-16: {}
+        16,-8: {}
+        16,0: {}
+        16,8: {}
+        16,16: {}
+        0,24: {}
+        32,-32: {}
+        48,-8: {}
+        48,-16: {}
+        24,-16: {}
+        24,-8: {}
+        24,0: {}
+        24,8: {}
+        24,16: {}
+        -8,24: {}
+        40,-24: {}
+        48,-24: {}
+        -16,-40: {}
+        40,-32: {}
+        -16,24: {}
+        48,-32: {}
       decals:
-        -24,64: {}
-        -32,112: {}
-        -24,56: {}
-        -32,104: {}
-        16,112: {}
-        16,104: {}
-        8,112: {}
-        16,96: {}
-        24,120: {}
-        -32,96: {}
-        0,88: {}
-        16,120: {}
-        8,104: {}
-        16,88: {}
-        0,80: {}
-        16,80: {}
-        -8,88: {}
-        16,72: {}
-        -16,88: {}
-        16,64: {}
-        8,96: {}
-        16,56: {}
-        24,112: {}
-        8,120: {}
-        8,88: {}
-        0,120: {}
-        24,104: {}
-        8,80: {}
-        0,56: {}
-        8,72: {}
-        0,64: {}
-        -8,56: {}
-        -40,112: {}
-        0,112: {}
-        8,64: {}
-        0,104: {}
-        0,96: {}
-        -16,64: {}
-        -8,120: {}
-        8,56: {}
-        -8,64: {}
-        0,72: {}
-        -40,104: {}
-        -8,112: {}
-        -8,80: {}
-        -8,72: {}
-        -16,72: {}
-        -16,80: {}
-        -24,72: {}
-        -16,56: {}
-        -24,80: {}
-        -24,88: {}
-        -32,88: {}
-        -40,96: {}
-        -32,80: {}
-        24,96: {}
-        -40,88: {}
-        -32,72: {}
-        -40,80: {}
-        -8,104: {}
-        24,88: {}
-        -8,96: {}
-        -40,72: {}
-        -16,120: {}
-        -16,112: {}
-        -24,120: {}
-        -16,104: {}
-        -24,112: {}
-        -16,96: {}
-        -32,120: {}
-        -32,64: {}
-        -40,120: {}
-        -24,104: {}
-        -40,64: {}
-        -32,56: {}
-        -40,56: {}
-        -24,96: {}
-        24,80: {}
-        24,72: {}
-        24,64: {}
-        24,56: {}
+        24,-24: {}
+        24,-32: {}
+        16,-32: {}
+        8,-32: {}
+        0,-32: {}
+        -8,-32: {}
+        -16,-32: {}
+        48,-40: {}
+        16,-24: {}
+        8,-24: {}
+        40,-40: {}
+        32,24: {}
+        32,-40: {}
+        24,-40: {}
+        16,-40: {}
+        0,-24: {}
+        -8,-24: {}
+        40,24: {}
+        48,24: {}
+        8,-40: {}
+        -16,-24: {}
+        0,-40: {}
+        40,16: {}
+        32,16: {}
+        48,16: {}
+        -8,-40: {}
+        -16,-16: {}
+        -16,-8: {}
+        -16,0: {}
+        -16,8: {}
+        -16,16: {}
+        40,8: {}
+        32,8: {}
+        40,0: {}
+        32,0: {}
+        -8,-16: {}
+        -8,-8: {}
+        -8,0: {}
+        -8,8: {}
+        -8,16: {}
+        24,24: {}
+        32,-8: {}
+        40,-8: {}
+        48,8: {}
+        0,-16: {}
+        0,-8: {}
+        0,0: {}
+        0,8: {}
+        0,16: {}
+        16,24: {}
+        48,0: {}
+        32,-16: {}
+        32,-24: {}
+        8,-16: {}
+        8,-8: {}
+        8,0: {}
+        8,8: {}
+        8,16: {}
+        8,24: {}
+        40,-16: {}
+        16,-16: {}
+        16,-8: {}
+        16,0: {}
+        16,8: {}
+        16,16: {}
+        0,24: {}
+        32,-32: {}
+        48,-8: {}
+        48,-16: {}
+        24,-16: {}
+        24,-8: {}
+        24,0: {}
+        24,8: {}
+        24,16: {}
+        -8,24: {}
+        40,-24: {}
+        48,-24: {}
+        -16,-40: {}
+        40,-32: {}
+        -16,24: {}
+        48,-32: {}
       modifiedTiles:
         -16,-24:
         - -11,-18
@@ -41979,42 +41958,61 @@ entities:
     - type: Transform
       pos: 0.5925362,74.98458
       parent: 1
-- proto: Banner2
+- proto: Banner11
   entities:
-  - uid: 850
+  - uid: 427
     components:
     - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -4.5,28.5
+      pos: -8.5,11.5
       parent: 1
     - type: Fixtures
       fixtures: {}
-  - uid: 1526
+  - uid: 428
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -8.5,18.5
+      pos: 21.5,-0.5
       parent: 1
     - type: Fixtures
       fixtures: {}
-  - uid: 2582
+  - uid: 429
     components:
     - type: Transform
-      pos: -2.5,18.5
+      pos: 5.5,13.5
       parent: 1
     - type: Fixtures
       fixtures: {}
-  - uid: 2589
+  - uid: 430
+    components:
+    - type: Transform
+      pos: -8.5,22.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+  - uid: 431
     components:
     - type: Transform
       pos: -2.5,9.5
       parent: 1
     - type: Fixtures
       fixtures: {}
-  - uid: 2593
+  - uid: 432
     components:
     - type: Transform
-      pos: 22.5,-0.5
+      pos: 20.5,19.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+  - uid: 433
+    components:
+    - type: Transform
+      pos: -2.5,18.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+  - uid: 434
+    components:
+    - type: Transform
+      pos: 16.5,11.5
       parent: 1
     - type: Fixtures
       fixtures: {}
@@ -42043,13 +42041,6 @@ entities:
       parent: 1
     - type: Fixtures
       fixtures: {}
-- proto: Bar-BarStalkerUncollide
-  entities:
-  - uid: 2
-    components:
-    - type: Transform
-      pos: 22.5,14.5
-      parent: 1
 - proto: Barrel1
   entities:
   - uid: 3
@@ -43282,13 +43273,6 @@ entities:
     - type: Transform
       pos: -15.788495,79.457245
       parent: 1
-- proto: Duty-BarUncollide
-  entities:
-  - uid: 1821
-    components:
-    - type: Transform
-      pos: 2.5,17.5
-      parent: 1
 - proto: ElectroShieldHigh
   entities:
   - uid: 1687
@@ -43428,13 +43412,6 @@ entities:
     components:
     - type: Transform
       pos: 19.5,6.5
-      parent: 1
-- proto: HermoDverTypeOneDolgClosed
-  entities:
-  - uid: 2949
-    components:
-    - type: Transform
-      pos: -5.5,11.5
       parent: 1
 - proto: HermoDverTypeTwo
   entities:
@@ -43622,24 +43599,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 61.5,-94.5
       parent: 1
-- proto: MetalAltDoorFalloutDolgClosed
-  entities:
-  - uid: 2637
-    components:
-    - type: Transform
-      pos: -5.5,18.5
-      parent: 1
-  - uid: 2665
-    components:
-    - type: Transform
-      pos: -3.5,22.5
-      parent: 1
-  - uid: 2667
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 0.5,19.5
-      parent: 1
 - proto: MetalAltDoorFalloutSeraphimsClosed
   entities:
   - uid: 400
@@ -43707,7 +43666,7 @@ entities:
       pos: -1.5,24.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -16379.296
+      secondsUntilStateChange: -16590.793
       state: Denying
     - type: Physics
       canCollide: False
@@ -43723,6 +43682,26 @@ entities:
     - Door
 - proto: MetalDoorFallout
   entities:
+  - uid: 141
+    components:
+    - type: Transform
+      pos: -5.5,11.5
+      parent: 1
+  - uid: 376
+    components:
+    - type: Transform
+      pos: 0.5,19.5
+      parent: 1
+  - uid: 396
+    components:
+    - type: Transform
+      pos: -3.5,22.5
+      parent: 1
+  - uid: 398
+    components:
+    - type: Transform
+      pos: -5.5,18.5
+      parent: 1
   - uid: 410
     components:
     - type: Transform
@@ -43801,79 +43780,6 @@ entities:
       parent: 1
     - type: Fixtures
       fixtures: {}
-- proto: NPCBarmenEN
-  entities:
-  - uid: 427
-    components:
-    - type: Transform
-      pos: 3.5,6.5
-      parent: 1
-    - type: ContainerContainer
-      containers:
-        body_root_part: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
-        shoes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        jumpsuit: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        outerClothing: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        gloves: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        neck: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        mask: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        eyes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        ears: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        head: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        pocket1: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        pocket2: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        suitstorage: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        id: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        belt: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        back: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
 - proto: NPCBlueprintComputer
   entities:
   - uid: 706
@@ -43958,225 +43864,6 @@ entities:
     components:
     - type: Transform
       pos: 0.5,78.5
-      parent: 1
-    - type: ContainerContainer
-      containers:
-        body_root_part: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
-        shoes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        jumpsuit: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        outerClothing: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        gloves: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        neck: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        mask: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        eyes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        ears: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        head: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        pocket1: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        pocket2: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        suitstorage: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        id: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        belt: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        back: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-- proto: NPCFil
-  entities:
-  - uid: 428
-    components:
-    - type: Transform
-      pos: 4.5,12.5
-      parent: 1
-    - type: ContainerContainer
-      containers:
-        body_root_part: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
-        shoes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        jumpsuit: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        outerClothing: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        gloves: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        neck: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        mask: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        eyes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        ears: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        head: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        pocket1: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        pocket2: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        suitstorage: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        id: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        belt: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        back: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-- proto: NPCIgorIvanovich
-  entities:
-  - uid: 429
-    components:
-    - type: Transform
-      pos: 1.5,4.5
-      parent: 1
-    - type: ContainerContainer
-      containers:
-        body_root_part: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
-        shoes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        jumpsuit: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        outerClothing: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        gloves: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        neck: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        mask: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        eyes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        ears: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        head: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        pocket1: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        pocket2: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        suitstorage: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        id: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        belt: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        back: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-- proto: NPCJuryIzvorotinEN
-  entities:
-  - uid: 430
-    components:
-    - type: Transform
-      pos: -6.5,8.5
       parent: 1
     - type: ContainerContainer
       containers:
@@ -44391,1215 +44078,8 @@ entities:
           showEnts: False
           occludes: False
           ent: null
-  - uid: 6045
-    components:
-    - type: Transform
-      pos: -5.5,8.5
-      parent: 1
-    - type: ContainerContainer
-      containers:
-        body_root_part: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
-        shoes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        jumpsuit: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        outerClothing: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        gloves: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        neck: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        mask: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        eyes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        ears: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        head: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        pocket1: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        pocket2: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        suitstorage: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        id: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        belt: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        back: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
 - proto: NPCSecuritySimple
   entities:
-  - uid: 431
-    components:
-    - type: MetaData
-      desc: Come on in, don't hold me up.
-      name: Mukhtar Bugai
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 9.5,-4.5
-      parent: 1
-    - type: ContainerContainer
-      containers:
-        body_root_part: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
-        pocket1: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        pocket2: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        suitstorage: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        id: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        belt: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        back: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact1: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact2: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact3: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact4: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        legs: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        torso: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        neck: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        eyes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        gloves: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        shoes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        outerClothing: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        mask: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        head: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        ears: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        dopweapon: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        cloak: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        jumpsuit: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-  - uid: 432
-    components:
-    - type: MetaData
-      desc: For just 500 roubles, he will deliver any parcel from anywhere in the area!
-      name: Anton Gorshkov
-    - type: Transform
-      pos: -2.5,0.5
-      parent: 1
-    - type: ContainerContainer
-      containers:
-        body_root_part: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
-        pocket1: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        pocket2: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        suitstorage: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        id: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        belt: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        back: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact1: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact2: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact3: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact4: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        legs: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        torso: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        neck: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        eyes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        gloves: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        shoes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        outerClothing: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        mask: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        head: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        ears: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        dopweapon: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        cloak: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        jumpsuit: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-  - uid: 433
-    components:
-    - type: MetaData
-      desc: And where does he get so many potatoes? Ha, Dimka has a gorgeous moustache!
-      name: Dimka "Bulbash"
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -4.5,4.5
-      parent: 1
-    - type: ContainerContainer
-      containers:
-        body_root_part: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
-        pocket1: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        pocket2: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        suitstorage: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        id: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        belt: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        back: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact1: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact2: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact3: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact4: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        legs: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        torso: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        neck: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        eyes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        gloves: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        shoes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        outerClothing: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        mask: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        head: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        ears: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        dopweapon: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        cloak: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        jumpsuit: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-  - uid: 434
-    components:
-    - type: MetaData
-      desc: A quiet and calm stalker, he keeps to himself and doesn't really like to talk.
-      name: Mykola Pozitiv
-    - type: Transform
-      pos: 1.5,-1.5
-      parent: 1
-    - type: ContainerContainer
-      containers:
-        body_root_part: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
-        pocket1: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        pocket2: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        suitstorage: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        id: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        belt: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        back: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact1: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact2: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact3: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact4: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        legs: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        torso: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        neck: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        eyes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        gloves: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        shoes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        outerClothing: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        mask: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        head: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        ears: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        dopweapon: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        cloak: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        jumpsuit: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-  - uid: 436
-    components:
-    - type: MetaData
-      name: Petro the Garbage Man
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 10.5,-6.5
-      parent: 1
-    - type: ContainerContainer
-      containers:
-        body_root_part: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
-        pocket1: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        pocket2: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        suitstorage: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        id: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        belt: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        back: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact1: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact2: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact3: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact4: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        legs: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        torso: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        neck: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        eyes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        gloves: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        shoes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        outerClothing: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        mask: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        head: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        ears: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        dopweapon: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        cloak: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        jumpsuit: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-  - uid: 437
-    components:
-    - type: MetaData
-      desc: The local drunkard almost never leaves the bar. Where does he get the money for vodka?
-      name: Vanka Ivantsov
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -2.5,-1.5
-      parent: 1
-    - type: ContainerContainer
-      containers:
-        body_root_part: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
-        pocket1: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        pocket2: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        suitstorage: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        id: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        belt: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        back: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact1: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact2: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact3: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact4: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        legs: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        torso: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        neck: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        eyes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        gloves: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        shoes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        outerClothing: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        mask: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        head: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        ears: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        dopweapon: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        cloak: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        jumpsuit: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-  - uid: 438
-    components:
-    - type: MetaData
-      desc: A regular electrician in the zone, he can fix your radio!
-      name: Sergey Midasov
-    - type: Transform
-      pos: -5.5,5.5
-      parent: 1
-    - type: ContainerContainer
-      containers:
-        body_root_part: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
-        pocket1: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        pocket2: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        suitstorage: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        id: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        belt: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        back: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact1: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact2: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact3: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact4: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        legs: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        torso: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        neck: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        eyes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        gloves: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        shoes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        outerClothing: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        mask: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        head: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        ears: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        dopweapon: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        cloak: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        jumpsuit: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-  - uid: 439
-    components:
-    - type: MetaData
-      desc: He clearly doesn't care about you, he's talking very enthusiastically to Gena about something.
-      name: Vanek Ssyklo
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 21.5,2.5
-      parent: 1
-    - type: ContainerContainer
-      containers:
-        body_root_part: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
-        pocket1: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        pocket2: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        suitstorage: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        id: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        belt: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        back: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact1: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact2: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact3: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact4: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        legs: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        torso: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        neck: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        eyes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        gloves: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        shoes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        outerClothing: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        mask: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        head: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        ears: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        dopweapon: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        cloak: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        jumpsuit: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-  - uid: 440
-    components:
-    - type: MetaData
-      desc: A tired stalker, it looks like he just returned from a trip to the north, perhaps we shouldn't disturb him.
-      name: Mikha Ryba
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 17.5,14.5
-      parent: 1
-    - type: ContainerContainer
-      containers:
-        body_root_part: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
-        pocket1: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        pocket2: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        suitstorage: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        id: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        belt: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        back: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact1: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact2: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact3: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact4: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        legs: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        torso: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        neck: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        eyes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        gloves: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        shoes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        outerClothing: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        mask: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        head: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        ears: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        dopweapon: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        cloak: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        jumpsuit: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-  - uid: 441
-    components:
-    - type: MetaData
-      desc: He clearly doesn't care about you, he's talking very enthusiastically to Vanya about something.
-      name: Gena Atom
-    - type: Transform
-      pos: 21.5,3.5
-      parent: 1
-    - type: ContainerContainer
-      containers:
-        body_root_part: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
-        pocket1: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        pocket2: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        suitstorage: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        id: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        belt: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        back: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact1: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact2: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact3: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact4: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        legs: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        torso: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        neck: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        eyes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        gloves: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        shoes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        outerClothing: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        mask: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        head: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        ears: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        dopweapon: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        cloak: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        jumpsuit: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-  - uid: 442
-    components:
-    - type: Transform
-      pos: 10.5,19.5
-      parent: 1
-    - type: ContainerContainer
-      containers:
-        body_root_part: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
-        shoes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        jumpsuit: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        outerClothing: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        gloves: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        neck: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        mask: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        eyes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        ears: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        head: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        pocket1: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        pocket2: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        suitstorage: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        id: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        belt: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        back: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
   - uid: 1323
     components:
     - type: MetaData
@@ -46510,13 +44990,6 @@ entities:
       parent: 1
 - proto: OldWoodChairStalker3
   entities:
-  - uid: 141
-    components:
-    - type: Transform
-      pos: -5.5,8.5
-      parent: 1
-    missingComponents:
-    - Strap
   - uid: 467
     components:
     - type: Transform
@@ -47179,41 +45652,6 @@ entities:
     - type: Transform
       pos: 1.291048,21.778687
       parent: 1
-  - uid: 7760
-    components:
-    - type: MetaData
-      name: Bartender's note
-    - type: Transform
-      pos: 2.6278489,-2.2601302
-      parent: 1
-    - type: Paper
-      content: >-
-        The lease on the premises has exceeded six months!
-
-        I'm taking all the vending machines you installed inside and
-
-        I'll sell them to gangs.
-
-
-        You should have read the contract.
-
-
-        P.S. Bartender
-    - type: Tag
-      tags: []
-    - type: ItemSlots
-    - type: ContainerContainer
-      containers:
-        paper_label: !type:ContainerSlot {}
-    - type: PaperLabel
-      labelSlot:
-        insertSound: !type:SoundPathSpecifier
-          path: /Audio/Weapons/Guns/MagIn/revolver_magin.ogg
-        ejectSound: !type:SoundPathSpecifier
-          path: /Audio/Weapons/Guns/MagOut/revolver_magout.ogg
-    missingComponents:
-    - Item
-    - Pullable
 - proto: PaperOffice
   entities:
   - uid: 565
@@ -47333,15 +45771,6 @@ entities:
       parent: 1
     - type: Fixtures
       fixtures: {}
-- proto: PosterContrabandFreebie
-  entities:
-  - uid: 613
-    components:
-    - type: Transform
-      pos: 12.5,7.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
 - proto: PosterContrabandGodSave
   entities:
   - uid: 1712
@@ -47357,40 +45786,6 @@ entities:
     components:
     - type: Transform
       pos: 4.376932,13.500104
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterContrabandLogo
-  entities:
-  - uid: 619
-    components:
-    - type: Transform
-      pos: 16.5,11.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterContrabandSandwich
-  entities:
-  - uid: 620
-    components:
-    - type: Transform
-      pos: 9.5,13.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
-  - uid: 621
-    components:
-    - type: Transform
-      pos: 3.5,9.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterContrabandStalkerOld
-  entities:
-  - uid: 622
-    components:
-    - type: Transform
-      pos: 8.5,0.5
       parent: 1
     - type: Fixtures
       fixtures: {}
@@ -47445,105 +45840,10 @@ entities:
       fixtures: {}
 - proto: PosterLegitCareYourself
   entities:
-  - uid: 628
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 24.5,-4.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
-  - uid: 629
-    components:
-    - type: Transform
-      pos: 20.5,13.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
   - uid: 711
     components:
     - type: Transform
       pos: -21.5,83.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
-  - uid: 2631
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -4.5,11.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterLegitDolg
-  entities:
-  - uid: 376
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 0.5,28.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
-  - uid: 631
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 17.5,-0.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
-  - uid: 638
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 0.5,25.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
-  - uid: 1522
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -5.5,22.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
-  - uid: 2651
-    components:
-    - type: Transform
-      pos: 11.5,11.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
-  - uid: 2657
-    components:
-    - type: Transform
-      pos: -0.5,9.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
-  - uid: 7713
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 2.5,22.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
-  - uid: 7741
-    components:
-    - type: Transform
-      pos: 6.5,-1.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterLegitLogo
-  entities:
-  - uid: 632
-    components:
-    - type: Transform
-      pos: 6.5,1.5
       parent: 1
     - type: Fixtures
       fixtures: {}
@@ -47557,51 +45857,12 @@ entities:
       parent: 1
     - type: Fixtures
       fixtures: {}
-- proto: PosterLegitScienceUSSR
-  entities:
-  - uid: 634
-    components:
-    - type: Transform
-      pos: -7.5,-1.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
-  - uid: 635
-    components:
-    - type: Transform
-      pos: 15.5,16.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterLegitShineBoulder
-  entities:
-  - uid: 6044
-    components:
-    - type: Transform
-      pos: 19.5,-0.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
 - proto: PosterLegitStalkerDrinkVodka
   entities:
   - uid: 298
     components:
     - type: Transform
       pos: 2.5,79.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
-  - uid: 639
-    components:
-    - type: Transform
-      pos: 5.5,5.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
-  - uid: 2646
-    components:
-    - type: Transform
-      pos: -4.5,18.5
       parent: 1
     - type: Fixtures
       fixtures: {}
@@ -47618,15 +45879,6 @@ entities:
     components:
     - type: Transform
       pos: -4.5,95.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterPawnShop
-  entities:
-  - uid: 646
-    components:
-    - type: Transform
-      pos: -6.5,9.5
       parent: 1
     - type: Fixtures
       fixtures: {}
@@ -47679,11 +45931,6 @@ entities:
       parent: 1
 - proto: RadioStalkerJukebox
   entities:
-  - uid: 396
-    components:
-    - type: Transform
-      pos: 2.5,5.5
-      parent: 1
   - uid: 931
     components:
     - type: Transform
@@ -48723,11 +46970,6 @@ entities:
       parent: 1
 - proto: SpawnerZoneAnomalyBarabashkaChance100
   entities:
-  - uid: 398
-    components:
-    - type: Transform
-      pos: 2.5,8.5
-      parent: 1
   - uid: 491
     components:
     - type: Transform
@@ -48837,101 +47079,6 @@ entities:
     components:
     - type: Transform
       pos: -16.5,80.5
-      parent: 1
-  - uid: 7771
-    components:
-    - type: Transform
-      pos: 2.5,7.5
-      parent: 1
-  - uid: 7772
-    components:
-    - type: Transform
-      pos: 2.5,6.5
-      parent: 1
-  - uid: 7773
-    components:
-    - type: Transform
-      pos: 2.5,6.5
-      parent: 1
-  - uid: 7774
-    components:
-    - type: Transform
-      pos: 3.5,6.5
-      parent: 1
-  - uid: 7775
-    components:
-    - type: Transform
-      pos: 4.5,6.5
-      parent: 1
-  - uid: 7776
-    components:
-    - type: Transform
-      pos: 5.5,6.5
-      parent: 1
-  - uid: 7777
-    components:
-    - type: Transform
-      pos: 3.5,7.5
-      parent: 1
-  - uid: 7778
-    components:
-    - type: Transform
-      pos: 4.5,7.5
-      parent: 1
-  - uid: 7779
-    components:
-    - type: Transform
-      pos: 5.5,7.5
-      parent: 1
-  - uid: 7780
-    components:
-    - type: Transform
-      pos: 3.5,8.5
-      parent: 1
-  - uid: 7781
-    components:
-    - type: Transform
-      pos: 2.5,8.5
-      parent: 1
-  - uid: 7782
-    components:
-    - type: Transform
-      pos: 2.5,7.5
-      parent: 1
-  - uid: 7783
-    components:
-    - type: Transform
-      pos: 2.5,6.5
-      parent: 1
-  - uid: 7784
-    components:
-    - type: Transform
-      pos: 3.5,6.5
-      parent: 1
-  - uid: 7785
-    components:
-    - type: Transform
-      pos: 4.5,6.5
-      parent: 1
-  - uid: 7786
-    components:
-    - type: Transform
-      pos: 5.5,6.5
-      parent: 1
-  - uid: 7787
-    components:
-    - type: Transform
-      pos: 3.5,7.5
-      parent: 1
-  - uid: 7788
-    components:
-    - type: Transform
-      pos: 4.5,7.5
-      parent: 1
-  - uid: 7789
-    components:
-    - type: Transform
-      pos: 5.5,7.5
       parent: 1
 - proto: StackBooks
   entities:
@@ -49109,13 +47256,6 @@ entities:
     components:
     - type: Transform
       pos: -0.5,74.5
-      parent: 1
-- proto: StalkerDublicateBar
-  entities:
-  - uid: 851
-    components:
-    - type: Transform
-      pos: 13.5,14.5
       parent: 1
 - proto: StalkerDublicateKordon
   entities:
@@ -49400,21 +47540,6 @@ entities:
       parent: 1
 - proto: StalkerPaciTriggerOut
   entities:
-  - uid: 871
-    components:
-    - type: Transform
-      pos: 21.5,12.5
-      parent: 1
-  - uid: 872
-    components:
-    - type: Transform
-      pos: 22.5,12.5
-      parent: 1
-  - uid: 873
-    components:
-    - type: Transform
-      pos: 23.5,12.5
-      parent: 1
   - uid: 1727
     components:
     - type: Transform
@@ -49504,51 +47629,6 @@ entities:
     components:
     - type: Transform
       pos: 26.5,75.5
-      parent: 1
-  - uid: 1822
-    components:
-    - type: Transform
-      pos: 1.5,18.5
-      parent: 1
-  - uid: 1823
-    components:
-    - type: Transform
-      pos: 1.5,17.5
-      parent: 1
-  - uid: 1824
-    components:
-    - type: Transform
-      pos: 1.5,16.5
-      parent: 1
-  - uid: 1825
-    components:
-    - type: Transform
-      pos: 2.5,18.5
-      parent: 1
-  - uid: 1826
-    components:
-    - type: Transform
-      pos: 2.5,17.5
-      parent: 1
-  - uid: 1827
-    components:
-    - type: Transform
-      pos: 2.5,16.5
-      parent: 1
-  - uid: 1828
-    components:
-    - type: Transform
-      pos: 3.5,18.5
-      parent: 1
-  - uid: 1829
-    components:
-    - type: Transform
-      pos: 3.5,17.5
-      parent: 1
-  - uid: 1830
-    components:
-    - type: Transform
-      pos: 3.5,16.5
       parent: 1
 - proto: StalkerStairs
   entities:
@@ -49814,13 +47894,6 @@ entities:
     components:
     - type: Transform
       pos: 23.5,6.5
-      parent: 1
-- proto: StalkerWorktable1
-  entities:
-  - uid: 941
-    components:
-    - type: Transform
-      pos: 14.5,2.5
       parent: 1
 - proto: STBarricadeBlock
   entities:
@@ -53415,6 +51488,11 @@ entities:
       parent: 1
 - proto: WallBrickFallout
   entities:
+  - uid: 2
+    components:
+    - type: Transform
+      pos: -8.5,18.5
+      parent: 1
   - uid: 5
     components:
     - type: Transform
@@ -54200,11 +52278,6 @@ entities:
     components:
     - type: Transform
       pos: -3.5,18.5
-      parent: 1
-  - uid: 2664
-    components:
-    - type: Transform
-      pos: -8.5,18.5
       parent: 1
   - uid: 2666
     components:
