@@ -1,0 +1,25 @@
+# Trooper
+- type: startingGear
+  id: UNTrooper
+  equipment:
+    head: ClothingHeadUNHelmet
+    outerClothing: ClothingOuterUNArmor
+    legs: ClothingUniformUNUniform
+    gloves: ClothingHandsGlovesCombat
+    shoes: ClothingShoesBootsJack
+    back: WeaponRifleUNAug
+    id: FactionsUNCardTrooper
+    belt: ClothingUNBeltMilitaryWebbingTrooperFilled
+
+# Squad Leader
+- type: startingGear
+  id: UNSquadLeader
+  equipment:
+    head: ClothingHeadUNBeret
+    outerClothing: ClothingOuterUNArmor
+    legs: ClothingUniformUNUniform
+    gloves: ClothingHandsGlovesCombat
+    shoes: ClothingShoesBootsJack
+    back: WeaponRifleUNAug
+    id: FactionsUNCardCommand
+    belt: ClothingUNBeltMilitaryWebbingTrooperFilled

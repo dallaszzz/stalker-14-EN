@@ -1,0 +1,44 @@
+- type: npcFaction
+  id: UN
+  hostile:
+  - Dragon
+  - SimpleHostile
+  - Syndicate
+  - Xeno
+  - Zombie
+  - Revolutionary
+  - Changeling
+  - Heretic
+  - Blob
+  - Wizard
+  - PirateFaction
+  friendly:
+    - PetsNT
+    - NanoTrasen
+
+- type: entity
+  name: UN trooper
+  parent: BaseMobHuman
+  id: MobFactionsUNTrooper
+  components:
+    - type: NpcFactionMember
+      factions:
+        - UN
+    - type: Loadout
+      prototypes:
+        - UNTrooper
+    - type: InputMover
+    - type: MobMover
+    - type: HTN
+      rootTask:
+        task: SimpleHumanoidHostileCompound
+    #- type: PartialAbsorbable
+
+- type: entity
+  name: UN squad leader
+  parent: MobFactionsUNTrooper
+  id: MobFactionsUNSquadLeader
+  components:
+  - type: Loadout
+    prototypes:
+      - UNSquadLeader

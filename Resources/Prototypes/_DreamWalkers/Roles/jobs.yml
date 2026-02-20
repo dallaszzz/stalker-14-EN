@@ -1,0 +1,107 @@
+# Job
+- type: job
+  id: DreamTeam
+  name: job-name-dreamteam
+  description: job-description-dreamteam
+  playTimeTracker: JobDreamTeam
+  goobcoins: 0
+  startingGear: DreamTeamGear
+  icon: "JobIconCaptain"
+  joinNotifyCrew: true
+  canBeAntag: false
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: NpcFactionMember
+      factions:
+        - NanoTrasen
+
+# Playtime tracker
+- type: playTimeTracker
+  id: JobDreamTeam
+
+# Card
+- type: entity
+  parent: IDCardStandard
+  id: DreamTeamIDCard
+  name: dreamteam ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: gold
+    - state: idcaptain
+  - type: Item
+    heldPrefix: gold
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+    - WhitelistChameleon
+    - WhitelistChameleonIdCard
+
+# PDA
+- type: entity
+  parent: BasePDA
+  id: DreamTeamPDA
+  name: dreamteam PDA
+  description: Surprisingly no different from your PDA.
+  components:
+  - type: Pda
+    id: DreamTeamIDCard
+    penSlot:
+      startingItem: PenCap
+      priority: -1
+      whitelist:
+        tags:
+        - Write
+  - type: Appearance
+    appearanceDataInit:
+     enum.PdaVisuals.PdaType:
+       !type:String
+       pda-captain
+  - type: PdaBorderColor
+    borderColor: "#7C5D00"
+  - type: Icon
+    state: pda-captain
+
+# Loadout
+- type: roleLoadout
+  id: JobDreamTeam
+  groups:
+  - GroupTankHarness
+  - PassengerJumpsuit
+  - CommonBackpack
+  - PassengerNeck
+  - PassengerFace
+  - PassengerGloves
+  - PassengerOuterClothing
+  - PassengerShoes
+  - Glasses
+  - Survival
+  - Trinkets
+  - Animals
+  - GroupSpeciesBreathTool
+  - AssistantEnvirohelm
+  - AssistantEnvirosuit
+  - AssistantEnvirogloves
+  - PersonalItemsJobAgnostic # Umbra
+
+# Starting Gear
+- type: startingGear
+  id: DreamTeamGear
+  equipment:
+    id: DreamTeamPDA
+    ears: ClothingHeadsetAltCommand
+    legs: ClothingLegsJeansBlue
+    torso: ClothingTorsoTShirtPivozavr
+
+# Spawner
+- type: entity
+  id: SpawnPointDreamTeam
+  parent: SpawnPointJobBase
+  name: dreamteam
+  components:
+  - type: SpawnPoint
+    job_id: DreamTeam
+  - type: Sprite
+    layers:
+      - state: green

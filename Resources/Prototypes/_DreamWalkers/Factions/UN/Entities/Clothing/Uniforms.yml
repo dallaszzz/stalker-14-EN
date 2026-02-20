@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformUNUniform
+  name: UN uniform
+  description: The uniform of the United Nations.
+  components:
+  - type: Sprite
+    sprite: _DreamWalkers/Factions/UN/Clothing/un_uniform.rsi
+  - type: Clothing
+    sprite: _DreamWalkers/Factions/UN/Clothing/un_uniform.rsi

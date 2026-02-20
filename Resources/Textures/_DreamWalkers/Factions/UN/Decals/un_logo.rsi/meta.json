@@ -1,0 +1,60 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Made by dallaszzz on github",
+    "size": {
+      "x": 32,
+      "y": 32
+    },
+    "states": [
+      {
+        "name": "un1"
+      },
+      {
+        "name": "un2"
+      },
+      {
+        "name": "un3"
+      },
+      {
+        "name": "un4"
+      },
+      {
+        "name": "un5"
+      },
+      {
+        "name": "un6"
+      },
+      {
+        "name": "un7"
+      },
+      {
+        "name": "un8"
+      },
+      {
+        "name": "un9"
+      },
+      {
+        "name": "un10"
+      },
+      {
+        "name": "un11"
+      },
+      {
+        "name": "un12"
+      },
+      {
+        "name": "un13"
+      },
+      {
+        "name": "un14"
+      },
+      {
+        "name": "un15"
+      },
+      {
+        "name": "un16"
+      }
+    ]
+  }
+  

@@ -1,0 +1,44 @@
+# Base Airlocks
+- type: entity
+  parent: Airlock
+  id: AirlockHatchUN
+  name: UN hatch
+  components:
+  - type: Sprite
+    sprite: _DreamWalkers/Factions/UN/Structures/un_hatch.rsi
+
+# Trooper
+- type: entity
+  parent: AirlockHatchUN
+  id: AirlockHatchUNLockedTrooper
+  suffix: Trooper, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsUNTrooper ]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsUNTrooper
+  suffix: UN Trooper, Locked
+  components:
+  - type: AccessReader
+    access: [["FactionsUNTrooper"]]
+
+# Command
+- type: entity
+  parent: AirlockHatchUN
+  id: AirlockHatchUNLockedCommand
+  suffix: Command, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsUNCommand ]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsUNCommand
+  suffix: UN Command, Locked
+  components:
+  - type: AccessReader
+    access: [["FactionsUNCommand"]]

@@ -1,0 +1,8 @@
+- type: department
+  id: DreamTeam
+  name: department-DreamTeam
+  description: department-DreamTeam-description
+  color: "#334E6D"
+  weight: 500
+  roles:
+  - DreamTeam

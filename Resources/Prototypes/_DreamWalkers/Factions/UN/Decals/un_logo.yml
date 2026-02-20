@@ -1,0 +1,111 @@
+- type: decal
+  id: unlogo1
+  tags: ["station"]
+  sprite:
+    sprite: _DreamWalkers/Factions/UN/Decals/un_logo.rsi
+    state: un1
+
+- type: decal
+  id: unlogo2
+  tags: ["station"]
+  sprite:
+    sprite: _DreamWalkers/Factions/UN/Decals/un_logo.rsi
+    state: un2
+
+- type: decal
+  id: unlogo3
+  tags: ["station"]
+  sprite:
+    sprite: _DreamWalkers/Factions/UN/Decals/un_logo.rsi
+    state: un3
+
+- type: decal
+  id: unlogo4
+  tags: ["station"]
+  sprite:
+    sprite: _DreamWalkers/Factions/UN/Decals/un_logo.rsi
+    state: un4
+
+- type: decal
+  id: unlogo5
+  tags: ["station"]
+  sprite:
+    sprite: _DreamWalkers/Factions/UN/Decals/un_logo.rsi
+    state: un5
+
+- type: decal
+  id: unlogo6
+  tags: ["station"]
+  sprite:
+    sprite: _DreamWalkers/Factions/UN/Decals/un_logo.rsi
+    state: un6
+
+- type: decal
+  id: unlogo7
+  tags: ["station"]
+  sprite:
+    sprite: _DreamWalkers/Factions/UN/Decals/un_logo.rsi
+    state: un7
+
+- type: decal
+  id: unlogo8
+  tags: ["station"]
+  sprite:
+    sprite: _DreamWalkers/Factions/UN/Decals/un_logo.rsi
+    state: un8
+
+- type: decal
+  id: unlogo9
+  tags: ["station"]
+  sprite:
+    sprite: _DreamWalkers/Factions/UN/Decals/un_logo.rsi
+    state: un9
+
+- type: decal
+  id: unlogo10
+  tags: ["station"]
+  sprite:
+    sprite: _DreamWalkers/Factions/UN/Decals/un_logo.rsi
+    state: un10
+
+- type: decal
+  id: unlogo11
+  tags: ["station"]
+  sprite:
+    sprite: _DreamWalkers/Factions/UN/Decals/un_logo.rsi
+    state: un11
+
+- type: decal
+  id: unlogo12
+  tags: ["station"]
+  sprite:
+    sprite: _DreamWalkers/Factions/UN/Decals/un_logo.rsi
+    state: un12
+
+- type: decal
+  id: unlogo13
+  tags: ["station"]
+  sprite:
+    sprite: _DreamWalkers/Factions/UN/Decals/un_logo.rsi
+    state: un13
+
+- type: decal
+  id: unlogo14
+  tags: ["station"]
+  sprite:
+    sprite: _DreamWalkers/Factions/UN/Decals/un_logo.rsi
+    state: un14
+
+- type: decal
+  id: unlogo15
+  tags: ["station"]
+  sprite:
+    sprite: _DreamWalkers/Factions/UN/Decals/un_logo.rsi
+    state: un15
+
+- type: decal
+  id: unlogo16
+  tags: ["station"]
+  sprite:
+    sprite: _DreamWalkers/Factions/UN/Decals/un_logo.rsi
+    state: un16

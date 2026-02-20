@@ -1,0 +1,50 @@
+# Trooper
+- type: entity
+  parent: IDCardStandard
+  id: FactionsUNCardTrooper
+  name: UN trooper card
+  components:
+  - type: Sprite
+    sprite: _DreamWalkers/Factions/UN/Objects/Misc/id_cards.rsi
+    state: trooper
+  - type: Clothing
+    sprite: _DreamWalkers/Factions/UN/Objects/Misc/id_cards.rsi
+    state: trooper
+  - type: Access
+    tags:
+    - FactionsUNTrooper
+  #- type: NanoChatCard
+    #listNumber: false
+  - type: Item
+    heldPrefix: un
+
+- type: accessLevel
+  id: FactionsUNTrooper
+  name: "United Nations trooper"
+  canAddToIdCard: false
+
+# Command
+- type: entity
+  parent: IDCardStandard
+  id: FactionsUNCardCommand
+  name: UN command card
+  components:
+  - type: Sprite
+    sprite: _DreamWalkers/Factions/UN/Objects/Misc/id_cards.rsi
+    state: command
+  - type: Clothing
+    sprite: _DreamWalkers/Factions/UN/Objects/Misc/id_cards.rsi
+    state: command
+  - type: Access
+    tags:
+    - FactionsUNTrooper
+    - FactionsUNCommand
+  #- type: NanoChatCard
+    #listNumber: false
+  - type: Item
+    heldPrefix: un
+
+- type: accessLevel
+  id: FactionsUNCommand
+  name: "United Nations command"
+  canAddToIdCard: false
