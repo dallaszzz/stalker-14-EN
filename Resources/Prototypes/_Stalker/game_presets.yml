@@ -5,6 +5,6 @@
   name: game-preset-stalker-title
   description: game-preset-stalker-description
   rules:
-    - STEmissionEventScheduler
-    - STWeatherScheduler
+    # - STEmissionEventScheduler
+    # - STWeatherScheduler
   supportedMaps: STDefaultMapPool

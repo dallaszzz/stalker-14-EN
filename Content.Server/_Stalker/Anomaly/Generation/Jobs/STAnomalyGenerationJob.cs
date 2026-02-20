@@ -98,32 +98,32 @@ public sealed partial class STAnomalyGenerationJob : Job<STAnomalyGenerationJobD
             if (anomaly is null)
                 continue;
 
-            for (var j = 0; j < 100; j++)
-            {
-                await MakeOperation();
+            //for (var j = 0; j < 100; j++)
+            //{
+            //    await MakeOperation();
 
-                var (coords, tile) = _random.Pick(_tileCoordinatesSpawn);
-                var entity = await TrySpawn(anomaly.Value, coords);
+            //    var (coords, tile) = _random.Pick(_tileCoordinatesSpawn);
+            //    var entity = await TrySpawn(anomaly.Value, coords);
 
-                if (entity == EntityUid.Invalid)
-                    continue;
+            //    if (entity == EntityUid.Invalid)
+            //        continue;
 
-                // Remove spawn coords from maps
-                _tileCoordinatesSpawn.Remove(coords);
-                _tileCoordinates.Remove(coords);
+            //    // Remove spawn coords from maps
+            //    _tileCoordinatesSpawn.Remove(coords);
+            //    _tileCoordinates.Remove(coords);
 
-                // Anomaly don't spawn in anomalies
-                foreach (var takenCoord in GetAnomalyTiles(anomaly.Value, coords))
-                {
-                    if (!_tileCoordinatesSpawn.ContainsKey(takenCoord))
-                        continue;
+            //    // Anomaly don't spawn in anomalies
+            //    foreach (var takenCoord in GetAnomalyTiles(anomaly.Value, coords))
+            //    {
+            //        if (!_tileCoordinatesSpawn.ContainsKey(takenCoord))
+            //            continue;
 
-                    _tileCoordinatesSpawn.Remove(takenCoord);
-                }
+            //        _tileCoordinatesSpawn.Remove(takenCoord);
+            //    }
 
-                result.SpawnedAnomalies.Add(entity);
-                break;
-            }
+            //    result.SpawnedAnomalies.Add(entity);
+            //    break;
+            //}
         }
 
         return result;
