@@ -16,17 +16,22 @@
       flatReductions:
         Blunt: 5
         Slash: 5
-        Piercing: 5
+        Piercing: 0 # EN
         Heat: 1
       coefficients:
         Blunt: 0.80
         Slash: 0.80
-        Piercing: 0.75
+        Piercing: 1 # EN
   - type: GrantsArtifactSlots
     slots: 0 # EN
   - type: ExplosionResistance
     damageCoefficient: 0.7
   - type: Craftable
+  - type: ImprovedArmor # EN start
+    hardness: 60
+    maxHP: 100
+    health: 100
+    resistance: 0.85  # EN end
 
 - type: entity
   parent: STClothingOuterArmor6B2Base

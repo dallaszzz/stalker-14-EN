@@ -10,7 +10,8 @@ using System.Linq;
 using Robust.Shared.Containers; // stalker-changes
 using Content.Shared.Tag; // stalker-changes
 using Content.Shared._Stalker_EN.Clothing;
-using Content.Shared._Stalker_EN.Clothing.Components; // stalker-changes
+using Content.Shared._Stalker_EN.Clothing.Components;
+using Content.Shared._Stalker_EN.Armor; // stalker-changes
 
 namespace Content.Shared.Armor;
 
@@ -155,6 +156,19 @@ public abstract partial class SharedArmorSystem : EntitySystem
     private FormattedMessage GetArmorExamine(DamageModifierSet armorModifiers, ArmorComponent comp)  // Stalker-Changes
     {
         var msg = new FormattedMessage();
+        // EN start
+        if (TryComp<ImprovedArmorComponent>(comp.Owner, out var improvedArmor))
+        {
+            msg.AddMarkupOrThrow(Loc.GetString("armor-examine-ballistic"));
+            msg.PushNewline();
+            msg.AddMarkupOrThrow(Loc.GetString("armor-hardness-value", ("value", improvedArmor.Hardness)));
+            msg.PushNewline();
+            msg.AddMarkupOrThrow(Loc.GetString("armor-maxhealth-value", ("value", improvedArmor.MaxHP)));
+            msg.PushNewline();
+            msg.AddMarkupOrThrow(Loc.GetString("armor-health-value", ("value", improvedArmor.Health)));
+            msg.PushNewline();
+        }
+        // EN end
         msg.AddMarkupOrThrow(Loc.GetString("armor-examine"));
 
         msg.PushNewline(); // Stalker-Changes

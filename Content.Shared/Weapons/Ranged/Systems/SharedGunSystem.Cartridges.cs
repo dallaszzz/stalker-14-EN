@@ -1,3 +1,4 @@
+using Content.Shared._Stalker_EN.Armor; // EN
 using Content.Shared.Damage;
 using Content.Shared.Damage.Events;
 using Content.Shared.Damage.Systems;
@@ -32,6 +33,16 @@ public abstract partial class SharedGunSystem
 
         if (damageSpec == null)
             return;
+
+        // EN start
+        if (ProtoManager.TryIndex(component.Prototype, out var entityProto) &&
+            entityProto.TryGetComponent<ImprovedAPComponent>(out var penetration, Factory) &&
+            penetration.Penetration > 0)
+        {
+            args.Message.AddMarkupOrThrow("Penetration - " + penetration.Penetration.ToString());
+            args.Message.PushNewline();
+        }
+        // EN end
 
         _damageExamine.AddDamageExamine(args.Message, Damageable.ApplyUniversalAllModifiers(damageSpec), Loc.GetString("damage-projectile"));
     }

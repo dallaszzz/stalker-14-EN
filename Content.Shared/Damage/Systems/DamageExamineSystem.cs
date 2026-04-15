@@ -54,7 +54,6 @@ public sealed class DamageExamineSystem : EntitySystem
     private FormattedMessage GetDamageExamine(DamageSpecifier damageSpecifier, string? type = null)
     {
         var msg = new FormattedMessage();
-
         if (string.IsNullOrEmpty(type))
         {
             msg.AddMarkupOrThrow(Loc.GetString("damage-examine"));
