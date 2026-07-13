@@ -13,6 +13,7 @@
     damage:
       types:
         Piercing: 34
+        Mutant: 34 # EN
   # - type: StaminaDamageOnCollide
     # damage: 4
 
@@ -42,6 +43,7 @@
     damage:
       types:
         Piercing: 35
+        Mutant: 29 # EN
 
 - type: entity
   id: Bullet739BP

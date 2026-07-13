@@ -13,6 +13,7 @@
     damage:
       types:
         Piercing: 23
+        Mutant: 23 # EN
   # - type: StaminaDamageOnCollide
     # damage: 1
 
@@ -27,6 +28,7 @@
     damage:
       types:
         Piercing: 24
+        Mutant: 14 # EN
 
 - type: entity
   id: Bullet919RIP
@@ -38,7 +40,7 @@
     projectileClass: 0
     damage:
       types:
-        Mutant: 40
+        Mutant: 50 # EN
         Piercing: 5
         Blunt: 5
         Slash: 5
