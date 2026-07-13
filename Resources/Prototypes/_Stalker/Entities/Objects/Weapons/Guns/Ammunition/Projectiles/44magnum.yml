@@ -1,5 +1,5 @@
 - type: entity
-  parent: STBaseLRBullet
+  parent: STBaseBullet # EN
   id: BulletRemingtonMagnum
   name: bullet (.44 remington magnum)
   suffix: Stalker
